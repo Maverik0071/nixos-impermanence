@@ -5,7 +5,12 @@
     preserveAt."/persistent" = {
       directories = [
         "/etc/nixos"
+        "/etc/NetworkManager/system-connections"
+        "/var/lib/systemd/timers"
         "/var/lib/bluetooth"
+        "/var/lib/nixos"
+        "/var/log"
+        "/tmp"
         {
           directory = "/var/lib/nixos";
           inInitrd = true;
@@ -20,7 +25,7 @@
       ];
 
       # Preserve user files
-      # users.yurii = {
+      # users.densetsu = {
       #   directories = [
       #     ".ssh"
       #     ".mozilla"

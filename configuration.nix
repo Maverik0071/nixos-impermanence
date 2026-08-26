@@ -11,12 +11,12 @@
   networking.hostName = "nixos";
   networking.networkmanager.enable = true;
 
-  time.timeZone = "Europe/Kyiv";
+  time.timeZone = "Asia/Tokyo";
   i18n.defaultLocale = "en_US.UTF-8";
 
-  users.users.yurii = {
+  users.users.densetsu = {
     isNormalUser = true;
-    initialPassword = "12345";
+    initialPassword = "library04";
     extraGroups = ["wheel"];
     packages = with pkgs; [
       tree

@@ -1,4 +1,4 @@
-A nixos imppermanance from VIMJOYER
+A nixos impermanance from VIMJOYER
 
 # add this after you put everything in the files
 
